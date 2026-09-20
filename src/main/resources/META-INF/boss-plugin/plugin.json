@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.envinspector",
+  "displayName": "Env Inspector",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.4.2",
+  "mainClass": "ai.rever.boss.plugin.dynamic.envinspector.EnvInspectorDynamicPlugin",
+  "type": "mixed",
+  "description": "Searchable panel listing every BOSS environment variable, system property and curated runtime setting - secrets are masked by default",
+  "author": "Risa Labs",
+  "url": "https://github.com/choksi2212/boss-plugin-env-inspector",
+  "panel": {
+    "position": "left_bottom",
+    "priority": 78
+  },
+  "sandbox": {
+    "maxThreads": 2,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  }
+}
