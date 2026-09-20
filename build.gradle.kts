@@ -10,7 +10,7 @@ plugins {
 group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: initial release - lists BOSS env vars / system properties / runtime
 // settings in a side panel, with secret masking and explicit MCP reveal path.
-version = "0.1.0"
+version = "0.1.1"
 
 java {
     toolchain {
