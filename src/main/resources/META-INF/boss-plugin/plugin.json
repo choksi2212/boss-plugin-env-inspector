@@ -9,7 +9,7 @@
   "mainClass": "ai.rever.boss.plugin.dynamic.envinspector.EnvInspectorDynamicPlugin",
   "type": "mixed",
   "description": "Searchable panel listing every BOSS environment variable, system property and curated runtime setting - secrets are masked by default",
-  "author": "Risa Labs",
+  "author": "choksi2212",
   "url": "https://github.com/choksi2212/boss-plugin-env-inspector",
   "panel": {
     "position": "left_bottom",
