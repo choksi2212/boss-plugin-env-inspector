@@ -26,7 +26,7 @@ class EnvInspectorDynamicPlugin : DynamicPlugin {
     override val version: String = "0.1.0"
     override val description: String =
         "Searchable panel listing every BOSS environment variable, system property and curated runtime setting - secrets are masked by default"
-    override val author: String = "Risa Labs"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-env-inspector"
 
     private val collector: EnvCollector = EnvCollector()
